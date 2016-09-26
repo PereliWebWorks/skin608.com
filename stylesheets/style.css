@@ -4,9 +4,19 @@
 	padding: 0px;
 }
 
+#header-image
+{
+	width: 100%;
+}
+
 .home-page-main-row
 {
 	margin-top: 6em;
 	margin-bottom: 6em;
 }
 
+
+body
+{
+	font-size: 2em;
+}
