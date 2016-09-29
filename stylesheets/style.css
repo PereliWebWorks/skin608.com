@@ -55,7 +55,10 @@ body
 	font-size: 1.5em;
 }
 
-
+.inline-header
+{
+	display: inline;
+}
 
 
 
