@@ -1,22 +1,26 @@
 
-#header-image-container
+
+
+.full-width-img-container
 {
 	padding: 0px;
 }
 
-#header-image
+.full-width-img
 {
 	width: 100%;
 }
 
-.home-page-main-row
+.main-content-container
 {
-	margin-top: 6em;
-	margin-bottom: 6em;
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background-color: white;
 }
 
 
 body
 {
 	font-size: 2em;
+	background-color: black;
 }
