@@ -18,9 +18,14 @@
 	background-color: white;
 }
 
+#copyright-footer
+{
+	text-align: center;
+	color: gray;
+	margin-bottom: 3em;
+}
 
-body
+#contact-container
 {
 	font-size: 2em;
-	background-color: black;
 }
