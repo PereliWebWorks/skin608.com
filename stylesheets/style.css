@@ -41,7 +41,7 @@ body
 
 .huge-text
 {
-	font-size: 4em;
+	font-size: 5em;
 }
 
 #google-map
@@ -75,9 +75,20 @@ body
 }
 
 
+.header-container
+{
+	margin-top: 5em;
+}
 
 
 
+/*Contact*/
+
+.contact-header
+{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
 
 
 
