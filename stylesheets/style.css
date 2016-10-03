@@ -41,7 +41,7 @@ body
 
 .huge-text
 {
-	font-size: 2em;
+	font-size: 4em;
 }
 
 #google-map
@@ -59,6 +59,29 @@ body
 {
 	display: inline;
 }
+
+
+
+/*Services page*/
+
+.product-container 
+{
+	
+}
+
+#waxing-table td
+{
+	padding: .5em;
+}
+
+
+
+
+
+
+
+
+
 
 
 
