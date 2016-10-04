@@ -60,6 +60,11 @@ body
 	display: inline;
 }
 
+#map
+{
+	height: 20em;
+}
+
 
 
 /*Services page*/
