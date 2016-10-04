@@ -60,10 +60,7 @@ body
 	display: inline;
 }
 
-#google-map
-{
-	height: 60%;
-}
+
 
 .contact-header
 {
@@ -75,6 +72,12 @@ body
 {
 	margin-bottom: 3em;
 }
+
+#map
+{
+	height: 20em;
+}
+
 
 
 /*Services page*/
