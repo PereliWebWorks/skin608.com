@@ -22,7 +22,7 @@ body
 
 .main-content-container
 {
-	padding-top: 6em;
+	padding-top: 4em;
 	padding-bottom: 6em;
 	background-color: white;
 }
@@ -60,18 +60,36 @@ body
 	display: inline;
 }
 
+#google-map
+{
+	height: 60%;
+}
+
+.contact-header
+{
+	margin-bottom: 4em;
+}
+
+/*Home page */
+#text-header-row
+{
+	margin-bottom: 3em;
+}
 
 
 /*Services page*/
 
 .product-container 
 {
-	
+	font-size: 1.4em;
 }
 
 #waxing-table td
 {
-	padding: .5em;
+	padding-right: .5em;
+	padding-left: .5em;
+	padding-top: .3em;
+	padding-bottom: .3em;
 }
 
 
@@ -80,15 +98,16 @@ body
 	margin-top: 5em;
 }
 
+#eyelash-tint-spacer
+{
+	height: 18em;
+}
+
 
 
 /*Contact*/
 
-.contact-header
-{
-	margin-top: 2em;
-	margin-bottom: 2em;
-}
+
 
 
 
