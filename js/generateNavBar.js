@@ -8,6 +8,7 @@ var stringToWrite = `
 		    </div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
+					<li><a href="about.html">About</a></li>
 					<li><a href="services.html">Services and Prices</a></li>
 					<li><a href="contact.html">Contact Us</a></li>
 				</ul>
@@ -46,6 +47,16 @@ if (pagename === "index")
 {
 	middle = 
 	`
+		<li><a href="about.html">About</a></li>
+		<li><a href="services.html">Services and Prices</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	`;
+}
+else if (pagename === "about")
+{
+	middle = 
+	`
+		<li class="active"><a href="about.html">About</a></li>
 		<li><a href="services.html">Services and Prices</a></li>
 		<li><a href="contact.html">Contact Us</a></li>
 	`;
@@ -54,6 +65,7 @@ else if (pagename === "services")
 {
 	middle = 
 	`
+		<li><a href="about.html">About</a></li>
 		<li class="active"><a href="services.html">Services and Prices</a></li>
 		<li><a href="contact.html">Contact Us</a></li>
 	`;
@@ -62,6 +74,7 @@ else if (pagename === "contact")
 {
 	middle = 
 	`
+		<li><a href="about.html">About</a></li>
 		<li><a href="services.html">Services and Prices</a></li>
 		<li class="active"><a href="contact.html">Contact Us</a></li>
 	`;
