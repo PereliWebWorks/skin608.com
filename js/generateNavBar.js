@@ -19,6 +19,7 @@ var stringToWrite = `
 */
 
 var pagename = $("page-name")[0].id;
+
 var beginning = `
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
@@ -35,7 +36,12 @@ var beginning = `
 				<ul class="nav navbar-nav">`;
 
 
-var end = `</ul>
+var end = `			<li class="navbar-right pull-right">
+						<a href="https://www.facebook.com/SKIN608-957230421020868/" class="navbar-fb-link">
+						<img src="images/facebookLogo.png" class="navbar-fb-logo img-responsive"/>
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</nav>
