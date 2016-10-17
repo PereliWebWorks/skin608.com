@@ -2,7 +2,7 @@
 body
 {
 	padding-top: 50px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .row
@@ -123,6 +123,11 @@ body
 	margin-bottom: 3em;
 }
 
+#contact-logo
+{
+	margin-top: 2em;
+	margin-bottom: -2em;
+}
 
 /*Nav*/
 nav li
@@ -154,7 +159,7 @@ nav li
 }
 
 @keyframes come-in-bottom {
-  to { transform: translateY(0); }
+  to { transform: translateY(0);}
 }
 
 .come-in-right {
@@ -175,25 +180,11 @@ nav li
   to { transform: translateX(0); }
 }
 
-/*
-.come-in-right{
-	trasnform: translateY(150px);
-	animation: come-in-right 0.8s ease forwards;
+.already-visible
+{
+	transform: translateX(0);
+	transform: translateY(0);
 }
-
-@keyframes come-in-right {
-  to { transform: translateY(0); }
-}
-
-.come-in-left{
-	trasnform: translateY(-150px);
-	animation: come-in-left 0.8s ease forwards;
-}
-
-@keyframes come-in-left {
-  to { transform: translateY(0); }
-}
-*/
 
 
 
